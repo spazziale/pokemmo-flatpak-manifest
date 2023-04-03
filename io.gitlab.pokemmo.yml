@@ -1,0 +1,32 @@
+app-id: io.gitlab.pokemmo
+runtime: org.freedesktop.Platform
+runtime-version: '21.08'
+sdk: org.freedesktop.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.openjdk
+command: pokemmo.sh
+tags:
+  - proprietary
+finish-args:
+- --socket=x11
+- --share=ipc
+- --socket=wayland
+- --socket=pulseaudio
+- --device=dri
+- --share=network
+- --env=PATH=/app/jre/bin:/app/bin:/usr/bin
+
+modules:  
+  - name : openjdk,
+    buildsystem : simple
+    build-commands :
+      - /usr/lib/sdk/openjdk/install.sh
+      
+  - name: pokemmo
+    buildsystem: simple
+    build-commands:
+      - install -D pokemmo.sh /app/bin/pokemmo.sh
+    sources:
+      - type: file
+        path: pokemmo.sh
+
