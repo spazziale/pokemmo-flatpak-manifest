@@ -29,4 +29,29 @@ modules:
     sources:
       - type: file
         path: pokemmo.sh
+      - type: file
+        path: io.codeberg.pokemmo.desktop
+      - type: file
+        path: io.codeberg.pokemmo.metainfo.xml
+      - type: file
+        path: icons/16x16.png
+      - type: file
+        path: icons/32x32.png
+      - type: file
+        path: icons/128x128.png
+    post-install:
+      # Icon
+      - mkdir -p ${FLATPAK_DEST}/share/icons/hicolor/16x16/apps
+      - mkdir -p ${FLATPAK_DEST}/share/icons/hicolor/32x32/apps
+      - mkdir -p ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps
+      - cp 16x16.png ${FLATPAK_DEST}/share/icons/hicolor/16x16/apps/io.codeberg.pokemmo.png
+      - cp 32x32.png ${FLATPAK_DEST}/share/icons/hicolor/32x32/apps/io.codeberg.pokemmo.png
+      - cp 128x128.png ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/io.codeberg.pokemmo.png
+      # Desktop entry
+      - mkdir -p ${FLATPAK_DEST}/share/applications
+      - cp io.codeberg.pokemmo.desktop /app/share/applications
+      # Placing appdata
+      - mkdir -p ${FLATPAK_DEST}/share/appdata
+      - cp io.codeberg.pokemmo.metainfo.xml ${FLATPAK_DEST}/share/appdata
+
 
