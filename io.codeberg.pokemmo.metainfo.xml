@@ -12,11 +12,23 @@
    <content_rating type="oars-1.0" />
    <screenshots>
       <screenshot type="default">
-        <image>https://github.com/XargonWan/RetroDECK/blob/main/res/logo.png?raw=true</image>
+        <image>https://pokemmo.com/build/images/screenshot/c.f3968293.png</image>
+      </screenshot>
+      <screenshot type="default">
+        <image>https://pokemmo.com/build/images/screenshot/b.3a233486.png</image>
+      </screenshot>
+      <screenshot type="default">
+        <image>https://pokemmo.com/build/images/screenshot/d.4080dd9c.png</image>
+      </screenshot>
+      <screenshot type="default">
+        <image>https://pokemmo.com/build/images/screenshot/e.ed0aa85b.png</image>
+      </screenshot>
+      <screenshot type="default">
+        <image>https://pokemmo.com/build/images/screenshot/a.debf11f5.png</image>
       </screenshot>
    </screenshots>
 
-   <project_license>proprietary</project_license>
+   <project_license>LicenseRef-proprietary</project_license>
    <metadata_license>CC0-1.0</metadata_license>
 
    <supports>
