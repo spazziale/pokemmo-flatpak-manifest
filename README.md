@@ -1,0 +1,2 @@
+# pokemmo-flatpak-manifest
+
