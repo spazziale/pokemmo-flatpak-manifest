@@ -53,10 +53,10 @@
   </description>
 
    <releases>
-      <release version="0.1.0" date="2022-04-03">
+      <release version="0.1.0" date="2023-04-03">
          <url>https://codeberg.org/Marc0x/pokemmo-flatpak-manifest</url>
          <description>
-            <p>First release!</p>
+            <p>First release on flathub!</p>
          </description>
       </release>
    </releases>
