@@ -1,5 +1,5 @@
 #!/bin/sh
-cd /var
+cd $XDG_DATA_HOME
 if [ ! -d "PokeMMO-Client" ]
 then
     curl -L "https://dl.pokemmo.com/download/PokeMMO-Client.zip?r=2221" -o PokeMMO-Client.zip
@@ -11,5 +11,5 @@ then
     chmod +x PokeMMO.sh
 fi
 
-cd /var/PokeMMO-Client
-source "/var/PokeMMO-Client/PokeMMO.sh"
+cd PokeMMO-Client
+source $XDG_DATA_HOME"/PokeMMO-Client/PokeMMO.sh"

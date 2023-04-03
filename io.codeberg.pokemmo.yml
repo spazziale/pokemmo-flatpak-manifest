@@ -1,4 +1,4 @@
-app-id: io.gitlab.pokemmo
+app-id: io.codeberg.pokemmo
 runtime: org.freedesktop.Platform
 runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
