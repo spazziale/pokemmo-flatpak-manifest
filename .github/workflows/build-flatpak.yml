@@ -50,7 +50,7 @@ jobs:
         env:
           REL_VER: ${{ env.REL_VER }}
         with:
-          tag: ${{ env.REL_VER }}
+          tags: ${{ env.REL_VER }}
           name: "PokeMMO (${{ env.REL_VER }})"
           bodyFile: "body.md"
           artifacts: "PokeMMO.flatpak"
