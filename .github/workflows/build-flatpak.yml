@@ -30,8 +30,8 @@ jobs:
           git config --global protocol.file.allow always
           mkdir -vp ${GITHUB_WORKSPACE}/local
           mkdir -vp ${GITHUB_WORKSPACE}/pokemmo
-          flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-          flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+          flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+          flatpak remote-add --user --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
           flatpak-builder --user --force-clean --install-deps-from=flathub --install-deps-from=flathub-beta --repo=${GITHUB_WORKSPACE}/local ${GITHUB_WORKSPACE}/pokemmo io.github.pokemmo.yml
 
       - name: Create Bundle
