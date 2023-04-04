@@ -43,8 +43,7 @@ jobs:
         run: |
           REL_VER= echo "$( git rev-parse --short HEAD )"
           echo "REL_VER=$REL_VER" >> $GITHUB_ENV
-          echo "Welcome to another PokeMMO release based on branch $REL_VER" >> "$DES"
-          echo "$DES" >> "body.md"
+          echo "Welcome to another PokeMMO release based on branch $REL_VER" >> "body.md"
 
       - name: Publish the flatpak in a new release
         uses: ncipollo/release-action@v1
