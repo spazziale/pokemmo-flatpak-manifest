@@ -19,5 +19,5 @@ Download the flatpak file from the latest release and install it with:</br>
 
 # Legal
 
-The PokeMMO app itself lgoso and images are proprietary (closed source).
+The PokeMMO app itself and images are proprietary (closed source).
 This Flatpak is not verified by, affiliated with, or supported by the PokeMMO Team.
