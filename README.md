@@ -5,6 +5,9 @@
 Welcome to a new era of online monster battles.
 Stop playing by yourself and start playing with everyone else.
 
+
+Be sure to check the [PokeMMO official website](https://pokemmo.com).
+
 <img src="https://pokemmo.com/build/images/screenshot/c-t.d7d3e35d.jpg">
 <img src="https://pokemmo.com/build/images/screenshot/b-t.45f3af02.jpg"></br>
 <img src="https://pokemmo.com/build/images/screenshot/d-t.8707f587.png">
