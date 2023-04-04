@@ -21,9 +21,8 @@ jobs:
 
       - name: Initialize enviornment
         run: |
-          git pull --recurse-submodules
           sudo apt-get update
-          sudo apt install -y flatpak flatpak-builder
+          sudo apt inst/////////all -y flatpak flatpak-builder
 
       - name: Build flatpak
         run: |
@@ -50,7 +49,7 @@ jobs:
         env:
           REL_VER: ${{ env.REL_VER }}
         with:
-          tags: "prerelease"
+          #tags: "prerelease"
           name: "PokeMMO (${{ env.REL_VER }})"
           bodyFile: "body.md"
           artifacts: "PokeMMO.flatpak"
