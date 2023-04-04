@@ -50,7 +50,7 @@ jobs:
         env:
           REL_VER: ${{ env.REL_VER }}
         with:
-          tags: ${{ env.REL_VER }}
+          tags: "prerelease"
           name: "PokeMMO (${{ env.REL_VER }})"
           bodyFile: "body.md"
           artifacts: "PokeMMO.flatpak"
