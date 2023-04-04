@@ -1,4 +1,4 @@
-app-id: io.codeberg.pokemmo
+app-id: io.github.pokemmo
 runtime: org.freedesktop.Platform
 runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
@@ -31,9 +31,9 @@ modules:
       - type: file
         path: pokemmo.sh
       - type: file
-        path: io.codeberg.pokemmo.desktop
+        path: io.github.pokemmo.desktop
       - type: file
-        path: io.codeberg.pokemmo.metainfo.xml
+        path: io.github.pokemmo.metainfo.xml
       - type: file
         path: icons/16x16.png
       - type: file
@@ -45,14 +45,14 @@ modules:
       - mkdir -p ${FLATPAK_DEST}/share/icons/hicolor/16x16/apps
       - mkdir -p ${FLATPAK_DEST}/share/icons/hicolor/32x32/apps
       - mkdir -p ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps
-      - cp 16x16.png ${FLATPAK_DEST}/share/icons/hicolor/16x16/apps/io.codeberg.pokemmo.png
-      - cp 32x32.png ${FLATPAK_DEST}/share/icons/hicolor/32x32/apps/io.codeberg.pokemmo.png
-      - cp 128x128.png ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/io.codeberg.pokemmo.png
+      - cp 16x16.png ${FLATPAK_DEST}/share/icons/hicolor/16x16/apps/io.github.pokemmo.png
+      - cp 32x32.png ${FLATPAK_DEST}/share/icons/hicolor/32x32/apps/io.github.pokemmo.png
+      - cp 128x128.png ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/io.github.pokemmo.png
       # Desktop entry
       - mkdir -p ${FLATPAK_DEST}/share/applications
-      - cp io.codeberg.pokemmo.desktop /app/share/applications
+      - cp io.github.pokemmo.desktop /app/share/applications
       # Placing appdata
       - mkdir -p ${FLATPAK_DEST}/share/appdata
-      - cp io.codeberg.pokemmo.metainfo.xml ${FLATPAK_DEST}/share/appdata
+      - cp io.github.pokemmo.metainfo.xml ${FLATPAK_DEST}/share/appdata
 
 

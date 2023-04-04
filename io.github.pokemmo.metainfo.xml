@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-   <id>io.codeberg.pokemmo</id>
-   <launchable type="desktop-id">io.codeberg.pokemmo.desktop</launchable>
+   <id>io.github.pokemmo</id>
+   <launchable type="desktop-id">io.github.pokemmo.desktop</launchable>
    <name>PokeMMO</name>
    <summary>PokeMMO is a free to play mmorpg, come join a growing community as you level up and discover new monsters.</summary>
    <developer_name>Marc0x</developer_name>
    <url type="homepage">https://pokemmo.com/</url>
-   <url type="bugtracker">https://codeberg.org/Marc0x/pokemmo-flatpak-manifest/issues</url>
+   <url type="bugtracker">https://github.com/marc0x1/pokemmo-flatpak-manifest/issues</url>
    <url type="help">https://support.pokemmo.com/</url>
    
    <content_rating type="oars-1.0" />
@@ -39,7 +39,7 @@
 
   <description>
     <p>
-      This is the official snap for PokeMMO, a turn-based MMORPG. PokeMMO is an online-only emulator for several popular Nintendo DS &amp; Game Boy Advance games, allowing you to play, talk, fight, and trade with other players in real time. PokeMMO supports Windows, macOS, Linux, Android, and iOS, with tens of thousands of players online daily in a cross-play environment
+      This is the unofficial flatpak for PokeMMO, a turn-based MMORPG. PokeMMO is an online-only emulator for several popular Nintendo DS &amp; Game Boy Advance games, allowing you to play, talk, fight, and trade with other players in real time. PokeMMO also supports Windows, macOS, Linux, Android, and iOS, with tens of thousands of players online daily in a cross-play environment
     </p>
     <p>
       PokeMMO requires certain third-party ROM files to play. Visit https://pokemmo.com/downloads/linux/ for the current list of ROM files compatible with the game
@@ -54,9 +54,9 @@
 
    <releases>
       <release version="0.1.0" date="2023-04-03">
-         <url>https://codeberg.org/Marc0x/pokemmo-flatpak-manifest</url>
+         <url>https://github.com/marc0x1/pokemmo-flatpak-manifest</url>
          <description>
-            <p>First release on flathub!</p>
+            <p>First release on flatpak!</p>
          </description>
       </release>
    </releases>
