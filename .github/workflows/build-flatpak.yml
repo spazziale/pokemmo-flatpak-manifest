@@ -21,7 +21,7 @@ jobs:
 
       - name: Initialize enviornment
         run: |
-          git pull --recursive
+          git pull --recurse-submodules
           sudo apt install -y flatpak flatpak-builder
 
       - name: Build flatpak
