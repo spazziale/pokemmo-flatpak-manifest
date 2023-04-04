@@ -22,7 +22,7 @@ jobs:
       - name: Initialize enviornment
         run: |
           sudo apt-get update
-          sudo apt inst/////////all -y flatpak flatpak-builder
+          sudo apt install -y flatpak flatpak-builder
 
       - name: Build flatpak
         run: |
