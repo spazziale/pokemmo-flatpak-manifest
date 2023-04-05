@@ -40,7 +40,7 @@ jobs:
       - name: Generate version info
         id: version
         run: |
-          REL_VER= echo "$( git rev-parse --short HEAD )"
+          REL_VER="$( git rev-parse --short HEAD )"
           echo "REL_VER=$REL_VER" >> $GITHUB_ENV
           echo "Welcome to another PokeMMO release based on branch $REL_VER" >> "body.md"
 
@@ -49,7 +49,7 @@ jobs:
         env:
           REL_VER: ${{ env.REL_VER }}
         with:
-          #tags: "prerelease"
+          tag: ${{ env.REL_VER }}
           name: "PokeMMO (${{ env.REL_VER }})"
           bodyFile: "body.md"
           artifacts: "PokeMMO.flatpak"
