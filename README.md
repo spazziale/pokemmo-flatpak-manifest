@@ -21,3 +21,6 @@ Download the flatpak file from the latest release and install it with:</br>
 
 The PokeMMO app itself and images are proprietary (closed source).
 This Flatpak is not verified by, affiliated with, or supported by the PokeMMO Team.
+
+If you like this package, please upvote this thread:
+https://forums.pokemmo.com/index.php?/topic/153979-pokemmo-flatpak/
