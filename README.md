@@ -5,17 +5,18 @@
 Welcome to a new era of online monster battles.
 Stop playing by yourself and start playing with everyone else.
 
-
 Be sure to check the [PokeMMO official website](https://pokemmo.com).
 
+# Downloads
+Download the flatpak file from the [latest release](https://github.com/marc0x1/pokemmo-flatpak-manifest/releases) and install it with:</br>
+```flatpak install PokeMMO.flatpak```
+
+# Screenshot
 <img src="https://pokemmo.com/build/images/screenshot/c-t.d7d3e35d.jpg">
 <img src="https://pokemmo.com/build/images/screenshot/b-t.45f3af02.jpg"></br>
 <img src="https://pokemmo.com/build/images/screenshot/d-t.8707f587.png">
 <img src="https://pokemmo.com/build/images/screenshot/e-t.e912995b.png">
 
-# Downloads
-Download the flatpak file from the [latest release](https://github.com/marc0x1/pokemmo-flatpak-manifest/releases) and install it with:</br>
-```flatpak install PokeMMO.flatpak```
 
 # Legal
 
