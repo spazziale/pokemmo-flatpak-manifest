@@ -14,7 +14,7 @@ Be sure to check the [PokeMMO official website](https://pokemmo.com).
 <img src="https://pokemmo.com/build/images/screenshot/e-t.e912995b.png">
 
 # Downloads
-Download the flatpak file from the latest release and install it with:</br>
+Download the flatpak file from the [latest release](https://github.com/marc0x1/pokemmo-flatpak-manifest/releases) and install it with:</br>
 ```flatpak install PokeMMO.flatpak```
 
 # Legal
