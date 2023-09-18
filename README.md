@@ -25,3 +25,6 @@ This Flatpak is not verified by, affiliated with, or supported by the PokeMMO Te
 
 If you like this package, please upvote this thread:
 https://forums.pokemmo.com/index.php?/topic/153979-pokemmo-flatpak/
+
+# Wayland support
+Wayland support is experimental and not officially provided by the PokeMMO team. Specifically, Xwayland is still required for the updater, but the main window runs natively on Wayland. 
