@@ -1,3 +1,5 @@
+This was upstream, see https://flathub.org/apps/com.pokemmo.PokeMMO
+
 # Unofficial PokeMMO flatpak
 
 <img src="https://pokemmo.com/build/images/pokemmo.cf970ad3.png">
