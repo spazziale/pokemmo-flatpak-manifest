@@ -1,4 +1,4 @@
-This was upstream, see https://flathub.org/apps/com.pokemmo.PokeMMO
+This was upstreamed, see https://flathub.org/apps/com.pokemmo.PokeMMO
 
 # Unofficial PokeMMO flatpak
 
